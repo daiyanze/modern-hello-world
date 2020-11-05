@@ -1,0 +1,28 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "baseUrl": ".",
+    "sourceMap": false,
+    "declaration": false,
+    "moduleResolution": "node",
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": false,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "es6",
+    "lib": ["esnext", "dom", "ScriptHost"],
+    "jsx": "preserve",
+    "types": ["node", "jest", "globalthis"],
+    "paths": {
+      "@helloworld/*": ["packages/*/src"],
+      "helloworld": ["packages/falcon/src"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "include": ["packages/*/src", "packages/*/__tests__"]
+}

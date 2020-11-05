@@ -1,0 +1,43 @@
+{
+  "name": "helloworld",
+  "version": "0.1.0",
+  "description": "a modern hello world JS library",
+  "main": "index.js",
+  "module": "dist/helloworld.esm.js",
+  "types": "dist/helloworld.d.ts",
+  "browser": "dist/helloworld.js",
+  "browserModern": "dist/helloworld.modern.js",
+  "buildOptions": {
+    "name": "HelloWorld",
+    "formats": [
+      "cjs",
+      "esm",
+      "browser",
+      "browserModern"
+    ]
+  },
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "browserslist": [
+    "last 2 version",
+    "not op_mini all",
+    "edge >= 13",
+    "firefox >= 10",
+    "chrome >= 25",
+    "ie >= 7",
+    "safari >= 9.0",
+    "and_chr >= 25",
+    "and_ff >= 10",
+    "and_uc >= 5",
+    "ios_saf >= 9.0",
+    "samsung >= 5",
+    "opera >= 25",
+    "op_mob >= 25"
+  ],
+  "dependencies": {
+    "@helloworld/shared": "0.1.0",
+    "core-js": "3"
+  }
+}

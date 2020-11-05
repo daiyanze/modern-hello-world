@@ -1,0 +1,19 @@
+{
+  "name": "@helloworld/shared",
+  "version": "0.1.0",
+  "description": "@helloworld/shared",
+  "main": "index.js",
+  "module": "dist/shared.esm.js",
+  "types": "dist/shared.d.ts",
+  "buildOptions": {
+    "name": "HelloWorldShared",
+    "formats": [
+      "cjs",
+      "esm"
+    ]
+  },
+  "files": [
+    "index.js",
+    "dist"
+  ]
+}
